@@ -8,6 +8,7 @@ a {
   color: black;
 }
 
+/* PLACEMENT AND STYLE */
 header {
   border-bottom: solid 2px black;
   background-color: white;
@@ -100,9 +101,43 @@ main .news-right {
   border-radius: 5rem;
 }
 
+#mood {
+  margin-top: 2em;
+}
 #mood .mood-nav {
   display: flex;
   justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+#mood .mood-nav .page-link {
+  border: none;
+  background-color: #212529;
+  color: white;
+}
+#mood .active .page-link {
+  background-color: #ee5f5b !important;
+}
+#mood .box {
+  overflow: hidden;
+}
+#mood .box img {
+  width: 100%;
+}
+
+#restaurants {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#restaurants .thumbnail {
+  overflow: hidden;
+}
+#restaurants .thumbnail img {
+  width: 100%;
+}
+#restaurants .thumbnail address {
+  margin: 1em 0;
+  padding-left: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

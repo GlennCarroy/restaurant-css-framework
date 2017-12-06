@@ -1,4 +1,4 @@
-// font-family: 'Slabo 27px', serif;
+
 // font-family: 'Nunito', sans-serif;
 
 
@@ -12,6 +12,8 @@ a{
 	text-decoration: none;
 	color: black;
 	}
+
+/* PLACEMENT AND STYLE */
 
 header {
 	border-bottom: solid 2px black;
@@ -110,9 +112,41 @@ main {
 }
 
 #mood {
+	margin-top: 2em;
 	.mood-nav {
 		display: flex;
 		justify-content: center;
+		margin-top: 1em;
+		margin-bottom: 2em;
+		.page-link {
+			border: none;
+			background-color: #212529;
+			color: white;
+		}
+	}
+	.active .page-link {
+			background-color: #ee5f5b !important;
+		}
+	.box {
+		overflow: hidden;
+		img {
+			width: 100%
+		}
+	}
+}
+
+#restaurants {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	.thumbnail {
+		overflow: hidden;
+		img {
+			width: 100%
+		}
+		address {
+			margin: 1em 0;
+			padding-left: 1em;
+		}
 	}
 }
 
