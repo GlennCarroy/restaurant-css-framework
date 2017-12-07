@@ -6,6 +6,11 @@ h1, h2, h3 {
 a {
   text-decoration: none;
   color: black;
+  transition: all ease 0.8s;
+}
+a:hover {
+  text-decoration: none;
+  color: #ee5f5b;
 }
 
 /* PLACEMENT AND STYLE */
@@ -26,6 +31,20 @@ header ul li {
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 1em;
+  position: relative;
+}
+header ul li:before {
+  content: "";
+  position: absolute;
+  width: 0em;
+  height: 0.1em;
+  top: 110%;
+  left: calc(50% - 1.5em);
+  background-color: #ee5f5b;
+  transition: all ease 0.5s;
+}
+header ul li:hover:before {
+  width: 3em;
 }
 
 footer {
@@ -66,8 +85,13 @@ main .panel {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   height: 420px;
-  padding: 0 !important;
   border-radius: 10px;
+}
+main .panel .panel-heading {
+  padding: 1em 0 0 1em;
+}
+main .panel .panel-body {
+  padding-left: 1em;
 }
 main .news-left {
   background-image: url("../images/bollywood-delight.jpg");
@@ -125,11 +149,9 @@ main .news-right {
   width: 100%;
 }
 
-#restaurants {
+#restaurants .thumbnail {
   margin-top: 2em;
   margin-bottom: 2em;
-}
-#restaurants .thumbnail {
   overflow: hidden;
 }
 #restaurants .thumbnail img {
@@ -138,6 +160,28 @@ main .news-right {
 #restaurants .thumbnail address {
   margin: 1em 0;
   padding-left: 1em;
+}
+#restaurants .thumbnail iframe {
+  box-shadow: 2px 2px 4px #000000;
+}
+
+#contact {
+  margin-top: 2em;
+  background: url(../images/logo.png) no-repeat fixed;
+  background-position: center center;
+}
+#contact .formularcontact {
+  margin-bottom: 2em;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#contact .contact-message {
+  height: 5em;
+}
+#contact .form-group {
+  padding-left: 1em;
+}
+#contact .progresscontact .progress {
+  margin-bottom: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
