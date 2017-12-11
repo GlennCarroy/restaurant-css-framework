@@ -198,4 +198,28 @@ main {
 	}
 }
 
+@media(max-width:500px) {
+	header {
+			img {
+			width: 200%;
+			}
+	}
+}
+
+@media (max-width: 760px) {
+	header {
+			img {
+			width: 150%;
+			}
+	}
+	#restaurants {
+		.thumbnail {
+			img, iframe{
+			width: 90%;
+			margin-left: calc(50% - 45%);
+			}
+		}
+	}
+}
+
 // url("./assets/images/logo.png") --

@@ -184,4 +184,20 @@ main .news-right {
   margin-bottom: 2em;
 }
 
+@media (max-width: 500px) {
+  header img {
+    width: 200%;
+  }
+}
+@media (max-width: 760px) {
+  header img {
+    width: 150%;
+  }
+
+  #restaurants .thumbnail img, #restaurants .thumbnail iframe {
+    width: 90%;
+    margin-left: calc(50% - 45%);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
