@@ -1,0 +1,16 @@
+footer {
+	padding: 1em; 
+	background-color: #313539;
+	.col-md-6 {
+		display: flex;
+		justify-content: space-around;
+	}
+	a{
+		color: white;
+	}
+	.footer-contact {
+		font-family: 'Pacifico', cursive;
+		font-size: 1.5em;
+	}
+
+}
