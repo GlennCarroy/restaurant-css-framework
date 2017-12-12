@@ -1,6 +1,6 @@
-#Premier pas en Bootstrap.
+# Premier pas en Bootstrap.
 
-**Site**: 
+**Site**: https://glenncarroy.github.io/restaurant-css-framework/
 
 Principe: faire le site vitrine d'un restaurant de chaîne.
 
